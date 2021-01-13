@@ -4,6 +4,7 @@ import java.io.IOException;
 
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
+import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 import com.aventstack.extentreports.Status;
@@ -37,6 +38,8 @@ public class successful_loginTestcase extends BaseClass{
 		logger.addScreenCaptureFromPath(img);
 		logger.log(Status.PASS,"Login successful");
 		Reports.flush();
+		//New code line added
+		Reporter.log("Test completed");
 	}
 	
 }
