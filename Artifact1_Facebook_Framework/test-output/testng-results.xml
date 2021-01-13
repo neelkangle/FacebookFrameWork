@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="49099" started-at="2021-01-13T09:28:24Z" finished-at="2021-01-13T09:29:13Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="49099" started-at="2021-01-13T09:28:24Z" finished-at="2021-01-13T09:29:13Z">
+      <class name="facebook.testcases.successful_loginTestcase">
+        <test-method status="PASS" signature="Excelsetup()[pri:0, instance:facebook.testcases.successful_loginTestcase@6fa38a]" name="Excelsetup" is-config="true" duration-ms="1403" started-at="2021-01-13T09:28:22Z" finished-at="2021-01-13T09:28:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Excelsetup -->
+        <test-method status="PASS" signature="TocheckWebsiteisopening()[pri:0, instance:facebook.testcases.successful_loginTestcase@6fa38a]" name="TocheckWebsiteisopening" is-config="true" duration-ms="25325" started-at="2021-01-13T09:28:24Z" description="Test Case 1 - To check Website is opening" finished-at="2021-01-13T09:28:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TocheckWebsiteisopening -->
+        <test-method status="PASS" signature="TocheckUserloggedinsuccessfully()[pri:2, instance:facebook.testcases.successful_loginTestcase@6fa38a]" name="TocheckUserloggedinsuccessfully" duration-ms="23666" started-at="2021-01-13T09:28:49Z" description="Test Case 2 - To check User logged in Successfully" finished-at="2021-01-13T09:29:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TocheckUserloggedinsuccessfully -->
+        <test-method status="PASS" signature="TearDown(org.testng.ITestResult)[pri:0, instance:facebook.testcases.successful_loginTestcase@6fa38a]" name="TearDown" is-config="true" duration-ms="76" started-at="2021-01-13T09:29:13Z" finished-at="2021-01-13T09:29:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TocheckUserloggedinsuccessfully status=SUCCESS method=successful_loginTestcase.TocheckUserloggedinsuccessfully()[pri:2, instance:facebook.testcases.successful_loginTestcase@6fa38a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- facebook.testcases.successful_loginTestcase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
